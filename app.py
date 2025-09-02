@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # --- Gemini API Configuration ---
 # The API key is handled by the execution environment.
-API_KEY = "AIzaSyB_gwuGTYO-vw1WQwC_FA-h6aIDCcPhgOU" 
+API_KEY = "You API" 
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
 
 
